@@ -1,7 +1,7 @@
 <p><%= @template.honorific %></p>
 <h2><%= @template.body %></h2>
 
-<p>订单编号：<%= UidHelper.sec_uuid(@template.order_prefix) %></p>
+<p>订单编号：<%= UidUtil.sec_uuid(@template.order_prefix) %></p>
 <p>礼品名称：拉卡拉收款机一台</p>
 
 <%= link_to({ controller: 'email/home', auth_token: @account.auth_token }) do %>
