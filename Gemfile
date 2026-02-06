@@ -7,9 +7,7 @@ gem 'puma'
 gem 'pg'
 gem 'propshaft'
 
-gem 'rails_com', github: 'work-design/rails_com'
-gem 'rails_design', github: 'work-design/rails_design'
-gem 'rails_auth', github: 'work-design/rails_auth'
+gem 'rails_com', path: '../rails_com'
+gem 'rails_auth', path: '../rails_auth'
 
-gem 'amazing_print'
 gem 'sdoc'
