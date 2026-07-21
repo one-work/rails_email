@@ -1,4 +1,4 @@
-Rails.application.routes.draw do
+Rails.app.routes.draw do
   namespace :email, defaults: { business: 'email' } do
     controller :home do
       get :index
