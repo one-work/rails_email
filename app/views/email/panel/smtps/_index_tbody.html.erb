@@ -5,12 +5,12 @@
 <td>
   <p>
     <%= form_with theme: 'switch', model: model, url: { action: 'update', id: model.id }, data: { controller: 'input' } do |f| %>
-      <%= f.check_box :ssl, data: { action: 'input#submit' }, id: nil %>
+      <%= f.checkbox :ssl, data: { action: 'input#submit' }, id: nil %>
     <% end %>
   </p>
   <p>
     <%= form_with theme: 'switch', model: model, url: { action: 'update', id: model.id }, data: { controller: 'input' } do |f| %>
-      <%= f.check_box :enable_starttls_auto, data: { action: 'input#submit' }, id: nil %>
+      <%= f.checkbox :enable_starttls_auto, data: { action: 'input#submit' }, id: nil %>
     <% end %>
   </p>
   <p><%= model.openssl_verify_mode %></p>
