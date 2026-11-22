@@ -1,6 +1,6 @@
 [submodule "test/dummy"]
   path = test/dummy
-  url = https://github.com/work-design/dummy.git
+  url = https://github.com/one-work/dummy.git
 [submodule "docker"]
 	path = docker
 	url = https://github.com/work-design/docker.git
