@@ -8,8 +8,7 @@ jobs:
     name: Engine Collect
     environment: dev
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
+    permissions: write-all
     steps:
       - name: Checkout code
         uses: actions/checkout@v7
