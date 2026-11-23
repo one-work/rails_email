@@ -18,7 +18,7 @@ jobs:
           token: ${{ secrets.AK }}
       - name: Git Pull
         run: |
-          git config user.email 'mingyuan0715@foxmail.com'
+          git config user.email 'mingyuan.qin@qq.com'
           git config user.name 'Mingyuan Qin With Bot'
           git submodule foreach git checkout main
           git status
