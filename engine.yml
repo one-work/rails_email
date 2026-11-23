@@ -1,4 +1,4 @@
-name: Engine Collect
+name: 所有组件
 on:
   push:
     branches:
