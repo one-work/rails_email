@@ -18,7 +18,7 @@ jobs:
       - name: Set up Ruby and Bundle Install
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '4.0'
+          ruby-version: '4.1'
           bundler-cache: true
       - name: Set up Nodejs
         uses: actions/setup-node@v7
