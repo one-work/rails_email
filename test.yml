@@ -16,7 +16,10 @@ jobs:
           submodules: true
           token: ${{ secrets.AK }}
       - name: Set up Ruby and Bundle Install
-        run: bundle i
+        run: |
+          ruby -v
+          gem install bundler
+          bundle i
       - name: Set up Nodejs
         run: npm i
       - name: Cache Node Modules
