@@ -20,9 +20,6 @@ jobs:
         with:
           ruby-version: '4.0'
           bundler-cache: true
-        run: |
-          ruby -v
-          bundle i
       - name: Set up Nodejs
         uses: actions/setup-node@v7
         with:
